@@ -1,0 +1,88 @@
+.background{
+    background-color: #c1d2c16a;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.body{
+    font-family: Arial, sans-serif;
+}
+
+.form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.input[type="text"], .input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.button{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #82eb87cd;
+}
+
+.p{
+    margin-top: 20px;
+}
+.covanta{
+    color:black;
+    margin-right:auto;
+    margin-left:27px;
+    margin-top:20px;
+    font-size:1.5rem;
+    letter-spacing:-2px;
+    position:absolute;
+    left:0;
+    top:0;
+
+  
+}
+.bodybackground {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(#dad7cd, #84a98c);/* Replace with your desired colors */
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    background-size:cover;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.returnshome{
+    
+    color:black;
+    left:86%;
+    top:45px;
+    position:absolute;
+   
+}
+.returnshome:active{
+    color:silver;
+}

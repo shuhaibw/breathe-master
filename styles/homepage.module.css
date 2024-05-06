@@ -1,0 +1,155 @@
+.textfont{
+    font-family:Arial, "Open Sans", sans-serif;
+}
+
+.title{
+    font-size: 1.7rem;
+    position:absolute;
+/*    top is distance from top, adjust*/
+    top: 35%;
+    
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+   
+    width: 100%;
+}
+
+.covanta{
+    color:black;
+    margin-right:auto;
+    margin-left:15px;
+    margin-top:-10px;
+    font-size:1.5rem;
+    letter-spacing:-2px;
+    position:absolute;
+    left:0;
+    top:0;
+
+  
+}
+.background1{
+    background-image: url("./../public/images/quit.jpg");
+    background-size:contain;
+    margin-top:40px;
+    width:100%;
+    height: 280px;
+    
+    
+}
+.greentext{
+    font-size:1.3rem;
+    color:black;
+    text-align:center;
+    margin-top:50px;
+}
+.firstpar{
+   
+    top: calc(85% + 60px); /* Adjust as needed */
+    position:relative;
+    left: 70%;
+     transform: translateX(-60%);
+    padding-right:25%;
+    padding-left:8%;
+    text-align:center;
+    padding-top:-10px;
+   
+}
+
+
+.careersnews{
+    color:silver;
+    
+}
+
+.underlineanchors{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:-39px;
+    margin-right:300px;
+    align-items:center;
+}
+.anchordecoration{
+    text-decoration:none;
+    cursor:pointer;
+    font-size:17px;
+    color:black;
+    padding-right:7%;
+}
+.anchor-decoration:hover{
+    color:silver
+}
+.containerforunderline{
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:30px;
+    
+}
+.longunderline{
+    padding: 0px 535px;
+    height:2px;
+    box-shadow: 0 2px 10px 1px rgba(192, 192, 192, 1);
+    margin: 20px 0px 0px 0;
+    width:8%;
+}
+.containerforbluetexts{
+    
+    top:115px;
+    left:40%;
+    transform: translateX(10%);
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:0px;
+    margin-top:27px;
+    font-size:1rem;
+    
+}
+
+.one{ color: black; /* Text color */
+   
+     
+     text-decoration: none;
+    
+}
+.one:hover{
+    color:silver;
+}
+.two{
+     color: black; /* Text color */
+   
+     
+     text-decoration: none;
+}
+.two:hover{
+    color:silver;
+}
+
+.three{
+    color: black;
+    text-decoration: none;
+}
+.three:hover{
+    color:silver;
+}
+.four{color:black;
+text-decoration:none;}
+.four:hover{
+    color:silver;
+}
+.five{color:black;
+    text-decoration:none;}
+.five:hover{
+        color:silver;
+    }
+
+   
+.imagesearch{
+    width:70px;
+    height:70px;
+    object-fit: cover;
+     margin-right:-280px;
+    font-size:18px;
+    margin-top:31px;
+  
+} 

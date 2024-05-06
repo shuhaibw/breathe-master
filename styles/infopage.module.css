@@ -1,0 +1,37 @@
+/* Basic styling for the form */
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #d93333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #c74545;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h2 {
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+}
+
+
+.input[type="submit"] {
+    background-color: #1bd221;
+    color: #a32525;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input[type="submit"]:hover {
+    background-color: #45a049;
+}
